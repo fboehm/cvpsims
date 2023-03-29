@@ -1,11 +1,16 @@
 Package: cvpsims
-Title: What the Package Does (One Line, Title Case)
+Title: Helper Functions for CV+ Interval Calculations for PGS
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person("Frederick", "Last", , "frederick.boehm@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-1644-5931"))
+Description: The package provides well documented and tested functions for use in CV+ interval calculations for PGS.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    magrittr
